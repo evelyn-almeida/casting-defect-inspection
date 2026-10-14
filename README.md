@@ -133,11 +133,6 @@ Create a virtual environment, install the dependencies, and download the dataset
 
 ```bash
 python -m venv .venv
-
-# Linux/macOS
-source .venv/bin/activate
-
-# Windows PowerShell
 .\.venv\Scripts\Activate.ps1
 
 pip install -r requirements.txt
