@@ -1,0 +1,40 @@
+{
+  "test_metrics": {
+    "HOG + LBP + logistic regression": {
+      "ROC AUC": 0.9906,
+      "Accuracy": 0.8406,
+      "Defect recall": 0.9978,
+      "Good-part recall": 0.5687,
+      "F1": 0.888,
+      "Threshold": 0.11
+    },
+    "CNN (standard augmentation)": {
+      "ROC AUC": 0.9957,
+      "Accuracy": 0.9762,
+      "Defect recall": 0.9934,
+      "Good-part recall": 0.9466,
+      "F1": 0.9815,
+      "Threshold": 0.24
+    },
+    "CNN (+ noise & lighting augmentation)": {
+      "ROC AUC": 0.9967,
+      "Accuracy": 0.9301,
+      "Defect recall": 0.9934,
+      "Good-part recall": 0.8206,
+      "F1": 0.9474,
+      "Threshold": 0.66
+    }
+  },
+  "triage": {
+    "automation_rate": 0.8013986013986014,
+    "escapes": 3,
+    "false_rejects": 1,
+    "t_low": 0.025325648486614227,
+    "t_high": 0.7827963829040527
+  },
+  "data_audit": {
+    "median_test_to_train": 0.9790654840257308,
+    "median_train_to_train": 0.9456390970349761,
+    "median_original_to_original": 0.88687386574789
+  }
+}

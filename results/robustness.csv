@@ -1,0 +1,61 @@
+perturbation,level,model,accuracy
+Sensor noise (σ),0.0000,HOG + LBP + logistic regression,0.8406
+Sensor noise (σ),0.0000,CNN (standard augmentation),0.9762
+Sensor noise (σ),0.0000,CNN (+ noise & lighting augmentation),0.9301
+Sensor noise (σ),0.0200,HOG + LBP + logistic regression,0.6336
+Sensor noise (σ),0.0200,CNN (standard augmentation),0.9860
+Sensor noise (σ),0.0200,CNN (+ noise & lighting augmentation),0.9343
+Sensor noise (σ),0.0500,HOG + LBP + logistic regression,0.6336
+Sensor noise (σ),0.0500,CNN (standard augmentation),0.9203
+Sensor noise (σ),0.0500,CNN (+ noise & lighting augmentation),0.9049
+Sensor noise (σ),0.0800,HOG + LBP + logistic regression,0.6336
+Sensor noise (σ),0.0800,CNN (standard augmentation),0.7413
+Sensor noise (σ),0.0800,CNN (+ noise & lighting augmentation),0.8517
+Sensor noise (σ),0.1200,HOG + LBP + logistic regression,0.6336
+Sensor noise (σ),0.1200,CNN (standard augmentation),0.6392
+Sensor noise (σ),0.1200,CNN (+ noise & lighting augmentation),0.7720
+"Defocus blur (σ, px)",0.0000,HOG + LBP + logistic regression,0.8406
+"Defocus blur (σ, px)",0.0000,CNN (standard augmentation),0.9762
+"Defocus blur (σ, px)",0.0000,CNN (+ noise & lighting augmentation),0.9301
+"Defocus blur (σ, px)",0.5000,HOG + LBP + logistic regression,0.9105
+"Defocus blur (σ, px)",0.5000,CNN (standard augmentation),0.9217
+"Defocus blur (σ, px)",0.5000,CNN (+ noise & lighting augmentation),0.7483
+"Defocus blur (σ, px)",1.0000,HOG + LBP + logistic regression,0.6881
+"Defocus blur (σ, px)",1.0000,CNN (standard augmentation),0.6336
+"Defocus blur (σ, px)",1.0000,CNN (+ noise & lighting augmentation),0.6336
+"Defocus blur (σ, px)",1.5000,HOG + LBP + logistic regression,0.6993
+"Defocus blur (σ, px)",1.5000,CNN (standard augmentation),0.6364
+"Defocus blur (σ, px)",1.5000,CNN (+ noise & lighting augmentation),0.6336
+"Defocus blur (σ, px)",2.0000,HOG + LBP + logistic regression,0.6406
+"Defocus blur (σ, px)",2.0000,CNN (standard augmentation),0.6448
+"Defocus blur (σ, px)",2.0000,CNN (+ noise & lighting augmentation),0.6378
+Lighting: brighter (+),0.0000,HOG + LBP + logistic regression,0.8406
+Lighting: brighter (+),0.0000,CNN (standard augmentation),0.9762
+Lighting: brighter (+),0.0000,CNN (+ noise & lighting augmentation),0.9301
+Lighting: brighter (+),0.0500,HOG + LBP + logistic regression,0.8420
+Lighting: brighter (+),0.0500,CNN (standard augmentation),0.9636
+Lighting: brighter (+),0.0500,CNN (+ noise & lighting augmentation),0.8392
+Lighting: brighter (+),0.1000,HOG + LBP + logistic regression,0.8378
+Lighting: brighter (+),0.1000,CNN (standard augmentation),0.9566
+Lighting: brighter (+),0.1000,CNN (+ noise & lighting augmentation),0.7706
+Lighting: brighter (+),0.2000,HOG + LBP + logistic regression,0.6713
+Lighting: brighter (+),0.2000,CNN (standard augmentation),0.8685
+Lighting: brighter (+),0.2000,CNN (+ noise & lighting augmentation),0.6797
+Lighting: brighter (+),0.3000,HOG + LBP + logistic regression,0.6517
+Lighting: brighter (+),0.3000,CNN (standard augmentation),0.6336
+Lighting: brighter (+),0.3000,CNN (+ noise & lighting augmentation),0.6406
+Lighting: lower contrast (×),1.0000,HOG + LBP + logistic regression,0.8420
+Lighting: lower contrast (×),1.0000,CNN (standard augmentation),0.9762
+Lighting: lower contrast (×),1.0000,CNN (+ noise & lighting augmentation),0.9301
+Lighting: lower contrast (×),0.8500,HOG + LBP + logistic regression,0.7259
+Lighting: lower contrast (×),0.8500,CNN (standard augmentation),0.8378
+Lighting: lower contrast (×),0.8500,CNN (+ noise & lighting augmentation),0.7371
+Lighting: lower contrast (×),0.7000,HOG + LBP + logistic regression,0.6797
+Lighting: lower contrast (×),0.7000,CNN (standard augmentation),0.6685
+Lighting: lower contrast (×),0.7000,CNN (+ noise & lighting augmentation),0.6378
+Lighting: lower contrast (×),0.5500,HOG + LBP + logistic regression,0.6448
+Lighting: lower contrast (×),0.5500,CNN (standard augmentation),0.6336
+Lighting: lower contrast (×),0.5500,CNN (+ noise & lighting augmentation),0.6336
+Lighting: lower contrast (×),0.4000,HOG + LBP + logistic regression,0.6350
+Lighting: lower contrast (×),0.4000,CNN (standard augmentation),0.6336
+Lighting: lower contrast (×),0.4000,CNN (+ noise & lighting augmentation),0.6336
